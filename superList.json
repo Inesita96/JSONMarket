@@ -1,0 +1,136 @@
+{
+  "supermercados":[
+    {
+      "name": "Mercahome",
+      "direccion":{
+        "via": "CALLE",
+        "nombre": "alabarda",
+        "numero": 123,
+        "cp": 548789,
+        "coordenadas": {
+          "norte": "40°01'44.8",
+          "sur": "",
+          "este": "5°47'05.3",
+          "oeste": ""
+        }
+      },
+      "productos":[
+        {
+          "nombre": "Arroz AZ",
+          "precio": "3",
+          "currency": "€",
+          "undidades": "1",
+          "tipo_unidad": "Kg",
+          "oferta": "true",
+          "adquirido": "true",
+          "tipo": "Alimentación",
+          "ingredientes": "Arroz"
+        },
+        {
+          "nombre": "Detergente Úrsula",
+          "precio": "20",
+          "currency": "€",
+          "undidades": "3",
+          "tipo_unidad": "L",
+          "oferta":"false",
+          "adquirido": "true",
+          "tipo": "Limpieza y Hogar",
+          "ingredientes": ""
+        },
+        {
+          "nombre": "Garbanzo cocido - Ahongra",
+          "precio": "1,30",
+          "currency": "€",
+          "undidades": "500",
+          "tipo_unidad": "g",
+          "oferta":"false",
+          "adquirido": "true",
+          "tipo": "Alimentación",
+          "ingredientes": "",
+          "informacion_nutricional": "Grasas (g)1.9 g de las cuales Saturadas (g) 0.3 g; Hidratos de carbono (g) 12 g de las cuales Azúcares (g) 0 g; Proteínas (g) 5.4 g;Sal (g)0.53 g;"
+        }
+      ],
+      "ofertas":[
+        {
+          "producto_nombre": "arroz AZ",
+          "descripcion": "El mejor arroz de la A a la Z ahora al mejor precio",
+          "descuento": "3x2",
+          "precio_total_descuento": "6",
+          "precio_descuento_unidad": "2",
+          "vigencia": "30/04/2023"
+        },
+        {
+          "producto_nombre": "Garbanzo cocido - Ahongra",
+          "descripcion": "Ahongra el detergente que limpia ahora mismo tu ropa a un 20% menos",
+          "descuento": "20%",
+          "precio_total_descuento": "16",
+          "precio_descuento_unidad": "16",
+          "currency": "€",
+          "vigencia": "30/05/2023"
+        }
+      ]
+    },
+    {
+      "name": "Carrefive",
+      "direccion":{
+        "via": "AV",
+        "nombre": "adrabala",
+        "numero": 321,
+        "cp": 987854,
+        "coordenadas": {
+          "norte": "30°01'44.8",
+          "sur": "",
+          "este": "3°27'05.3",
+          "oeste": ""
+        }
+      },
+      "productos":[
+        {
+          "nombre": "Arroz AZ",
+          "precio": "4",
+          "currency": "€",
+          "undidades": "1",
+          "tipo_unidad": "Kg",
+          "oferta": "false",
+          "adquirido": "false",
+          "tipo": "Alimentación",
+          "ingredientes": "Arroz"
+        },
+        {
+          "nombre": "Detergente Úrsula",
+          "precio": "18",
+          "currency": "€",
+          "undidades": "3",
+          "tipo_unidad": "L",
+          "oferta":"true",
+          "adquirido": "true",
+          "tipo": "Limpieza y Hogar",
+          "ingredientes": ""
+        },
+        {
+          "nombre": "Garbanzo cocido - Ahongra",
+          "precio": "1,33",
+          "currency": "€",
+          "undidades": "500",
+          "tipo_unidad": "g",
+          "oferta":"false",
+          "adquirido": "true",
+          "tipo": "Alimentación",
+          "ingredientes": "",
+          "informacion_nutricional": "Grasas (g)1.9 g de las cuales Saturadas (g) 0.3 g; Hidratos de carbono (g) 12 g de las cuales Azúcares (g) 0 g; Proteínas (g) 5.4 g;Sal (g)0.53 g;"
+        }
+      ],
+      "ofertas":[
+        {
+          "producto_nombre": "Detergente Úrsula",
+          "descripcion": "Aveces los villanos ganan",
+          "descuento": "40%",
+          "precio_total_descuento": "10,8",
+          "precio_descuento_unidad": "10,8",
+          "currency": "€",
+          "vigencia": "30/05/2023"
+        }
+      ]
+    }
+  ]
+}

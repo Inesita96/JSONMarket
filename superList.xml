@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <supermercados>
+    <name>Mercahome</name>
+    <direccion>
+      <via>CALLE</via>
+      <nombre>alabarda</nombre>
+      <numero>123</numero>
+      <cp>548789</cp>
+      <coordenadas>
+        <norte>40°01';44.8</norte>
+        <sur></sur>
+        <este>5°47'05.3</este>
+        <oeste></oeste>
+      </coordenadas>
+    </direccion>
+    <productos>
+      <nombre>Arroz AZ</nombre>
+      <precio>3</precio>
+      <currency>€</currency>
+      <undidades>1</undidades>
+      <tipo_unidad>Kg</tipo_unidad>
+      <oferta>true</oferta>
+      <adquirido>true</adquirido>
+      <tipo>Alimentación</tipo>
+      <ingredientes>Arroz</ingredientes>
+    </productos>
+    <productos>
+      <nombre>Detergente Úrsula</nombre>
+      <precio>20</precio>
+      <currency>€</currency>
+      <undidades>3</undidades>
+      <tipo_unidad>L</tipo_unidad>
+      <oferta>false</oferta>
+      <adquirido>true</adquirido>
+      <tipo>Limpieza y Hogar</tipo>
+      <ingredientes></ingredientes>
+    </productos>
+    <productos>
+      <nombre>Garbanzo cocido - Ahongra</nombre>
+      <precio>1,30</precio>
+      <currency>€</currency>
+      <undidades>500</undidades>
+      <tipo_unidad>g</tipo_unidad>
+      <oferta>false</oferta>
+      <adquirido>true</adquirido>
+      <tipo>Alimentación</tipo>
+      <ingredientes></ingredientes>
+      <informacion_nutricional>Grasas (g)1.9 g de las cuales Saturadas (g) 0.3 g; Hidratos de carbono (g) 12 g de las cuales Azúcares (g) 0 g; Proteínas (g) 5.4 g;Sal (g)0.53 g;</informacion_nutricional>
+    </productos>
+    <ofertas>
+      <producto_nombre>arroz AZ</producto_nombre>
+      <descripcion>El mejor arroz de la A a la Z ahora al mejor precio</descripcion>
+      <descuento>3x2</descuento>
+      <precio_total_descuento>6</precio_total_descuento>
+      <precio_descuento_unidad>2</precio_descuento_unidad>
+      <vigencia>30/04/2023</vigencia>
+    </ofertas>
+    <ofertas>
+      <producto_nombre>Garbanzo cocido - Ahongra</producto_nombre>
+      <descripcion>Ahongra el detergente que limpia ahora mismo tu ropa a un 20% menos</descripcion>
+      <descuento>20%</descuento>
+      <precio_total_descuento>16</precio_total_descuento>
+      <precio_descuento_unidad>16</precio_descuento_unidad>
+      <currency>€</currency>
+      <vigencia>30/05/2023</vigencia>
+    </ofertas>
+  </supermercados>
+  <supermercados>
+    <name>Carrefive</name>
+    <direccion>
+      <via>AV</via>
+      <nombre>adrabala</nombre>
+      <numero>321</numero>
+      <cp>987854</cp>
+      <coordenadas>
+        <norte>30°01'44.8</norte>
+        <sur></sur>
+        <este>3°27'05.3</este>
+        <oeste></oeste>
+      </coordenadas>
+    </direccion>
+    <productos>
+      <nombre>Arroz AZ</nombre>
+      <precio>4</precio>
+      <currency>€</currency>
+      <undidades>1</undidades>
+      <tipo_unidad>Kg</tipo_unidad>
+      <oferta>false</oferta>
+      <adquirido>false</adquirido>
+      <tipo>Alimentación</tipo>
+      <ingredientes>Arroz</ingredientes>
+    </productos>
+    <productos>
+      <nombre>Detergente Úrsula</nombre>
+      <precio>18</precio>
+      <currency>€</currency>
+      <undidades>3</undidades>
+      <tipo_unidad>L</tipo_unidad>
+      <oferta>true</oferta>
+      <adquirido>true</adquirido>
+      <tipo>Limpieza y Hogar</tipo>
+      <ingredientes></ingredientes>
+    </productos>
+    <productos>
+      <nombre>Garbanzo cocido - Ahongra</nombre>
+      <precio>1,33</precio>
+      <currency>€</currency>
+      <undidades>500</undidades>
+      <tipo_unidad>g</tipo_unidad>
+      <oferta>false</oferta>
+      <adquirido>true</adquirido>
+      <tipo>Alimentación</tipo>
+      <ingredientes></ingredientes>
+      <informacion_nutricional>Grasas (g)1.9 g de las cuales Saturadas (g) 0.3 g; Hidratos de carbono (g) 12 g de las cuales Azúcares (g) 0 g; Proteínas (g) 5.4 g;Sal (g)0.53 g;</informacion_nutricional>
+    </productos>
+    <ofertas>
+      <producto_nombre>Detergente Úrsula</producto_nombre>
+      <descripcion>Aveces los villanos ganan</descripcion>
+      <descuento>40%</descuento>
+      <precio_total_descuento>10,8</precio_total_descuento>
+      <precio_descuento_unidad>10,8</precio_descuento_unidad>
+      <currency>€</currency>
+      <vigencia>30/05/2023</vigencia>
+    </ofertas>
+  </supermercados>
+</root>
